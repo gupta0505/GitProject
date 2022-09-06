@@ -1,0 +1,22 @@
+package flowAndException;
+
+public class If {
+
+	public static void main(String[] args) {
+		 int n=12;
+		 if(n>0)
+		 {
+			 System.out.println("yes");
+			 
+		}
+		 
+		 int n1=-43;
+		 if(n>0)
+		 {
+			 System.out.println("yes");
+			 
+		 }
+		 System.out.println("no");
+	}
+
+}

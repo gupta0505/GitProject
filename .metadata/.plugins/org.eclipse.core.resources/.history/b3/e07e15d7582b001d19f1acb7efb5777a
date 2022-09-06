@@ -1,0 +1,15 @@
+package Array;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		
+		int[] arr= {6,5,4,3,2,1};
+		
+		for(int i=arr.length;i>=0;i--)
+		{
+			System.out.println(arr[i]+" ");
+		}
+	}
+
+}

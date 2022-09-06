@@ -1,0 +1,27 @@
+package OOPs;
+
+public class OverLoading {
+	
+	int id;
+	String name;
+	
+	void add(int i,String n)
+	{
+		id=i;
+		name=n;
+	}
+	
+	void add(String n)
+	{
+		name=n;
+	}
+	
+
+	public static void main(String[] args) {
+		
+		OverLoading o=new OverLoading();
+		o.id=100;
+		o.name="julie";
+	}
+
+}

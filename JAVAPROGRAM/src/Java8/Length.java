@@ -1,0 +1,14 @@
+package Java8;
+
+import java.util.stream.Stream;
+
+public class Length {
+
+	public static void main(String[] args) {
+		
+		Stream<Integer>StreamOfNumber=Stream.of(1,2,3,4,5,6,7);
+		System.out.println(StreamOfNumber.count());
+
+	}
+
+}

@@ -1,0 +1,22 @@
+
+public class Basic {
+
+	public static void main(String[] args) {
+		
+		int num=23,number;
+		int total=0,temp;
+		number=num;
+		while(num !=0)
+		{
+			temp=num%10;
+			total=total+temp*temp;
+			num=num/10;
+		}
+		if(total==number)
+			System.out.println("is");
+		else
+			System.out.println("not");
+
+	}
+
+}

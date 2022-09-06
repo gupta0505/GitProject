@@ -1,0 +1,42 @@
+package OOPs;
+
+
+
+public class Student {
+	
+	int id;
+	String name;
+	double fees;
+	
+	void detail(int i,String n,double f)
+	{
+		id=i;
+		name=n;
+		fees=f;
+	}
+}
+
+class Employe extends Student{
+	
+	int id;
+	String name;
+	double salary;
+	
+	void detail(int i,String n,double s)
+	{
+		id=i;
+		name=n;
+		salary=s;
+	}
+
+	
+	public static void main(String[] args) {
+		
+		Employe e=new Employe();
+		e.detail(101, "Julie", 2000);
+		e.d
+	
+		
+		
+	}
+}

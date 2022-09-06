@@ -1,0 +1,27 @@
+package oopS;
+
+public class Overloading {
+	
+	public void m1(String s)
+	{
+		System.out.println("no arg");
+		
+	}
+	 void m1(int a)
+	{
+		System.out.println("int arg");
+		
+	}
+	public void m1(double d,int i)
+	{
+		System.out.println("double arg");
+	}
+	public static void main(String[] args) {
+		
+		Overloading o=new Overloading();
+		o.m1(null);
+		o.m1(23);
+		o.m1(4.56,98);
+	}
+
+}

@@ -1,0 +1,29 @@
+package BASIC;
+
+public class Practice {
+	
+	public static void main(String[] args) {
+		
+		int num1=23;
+		
+		if(num1%2 !=0)
+		{
+			System.out.println("odd no");
+			
+		}
+		
+		else
+		{
+			System.out.println(" not odd");
+		}
+		
+		
+		
+		}
+		
+	}
+
+		 
+	
+
+

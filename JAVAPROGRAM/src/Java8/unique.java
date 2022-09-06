@@ -1,0 +1,20 @@
+package Java8;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class unique {
+
+	public static void main(String[] args) {
+		
+		List<String>name=new ArrayList<>();
+		name.add("Deepak");
+		name.add("Julie");
+		name.add("Jyoti");
+		name.add("Ahaan");
+		name.add("Deepak");
+		name.add("Ahaan");
+		name.stream().distinct().forEach(System.out::println);
+	}
+
+}

@@ -1,0 +1,25 @@
+package BASIC;
+
+public class Practice {
+	
+	public static void main(String[] args) {
+		
+		int num=23, number, total=0,temp;
+		number=num;
+		while(num !=0)
+		{
+			temp=num%10;
+			total=total+temp*temp;
+			num=num/10;
+		}
+		if(total==num)
+			System.out.println("am");
+		else
+			System.out.println("not");
+		
+	}
+}
+		 
+	
+
+

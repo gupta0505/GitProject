@@ -1,0 +1,21 @@
+package oopS;
+        //INHERTANCE
+public class TestA {
+	float salary;
+	void west()
+	{
+	salary=40000;	
+	}
+}
+class TestB extends TestA{
+	int Bouns=10000;
+
+	public static void main(String[] args) {
+		TestB t=new TestB();
+		System.out.println(t.salary);
+		System.out.println(t.Bouns);
+	
+
+	}
+
+}

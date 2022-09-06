@@ -1,0 +1,33 @@
+package OOPs;
+
+public class Student {
+	
+	
+	void detail()
+	{
+		System.out.println("aaaaaaaaaaa");
+	}
+}
+class College extends Student{
+	
+	void show()
+	{
+		System.out.println("bbbbbbbbbb");
+	}
+}
+class main{
+	
+	public static void main(String[] args) {
+		
+		College s=new College();
+		s.detail();
+		s.show();
+		
+		
+		
+		
+		
+		
+	}
+
+}

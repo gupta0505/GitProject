@@ -1,0 +1,32 @@
+package oopS;
+
+public class Constructor_Overloading {
+
+	int id=12;
+	String name="name";
+	(int i,String s)
+	{
+		i=id;
+		name=s;
+	}
+	(String s)
+	{
+		s=name;
+	}
+	(String s,int i)
+	{
+		s=name;
+		i=id;
+	}
+	
+	public static void main(String []args)
+	{
+		 d=new (12,"Deepak");
+		 d1=new (21,"Julie");
+		
+		System.out.println(d.id+" "+d.name);
+		System.out.println(d1.id+" "+d1.name);
+		System.out.println(d.name);
+		System.out.println(d1.name+" "+d1.id);
+}	
+}

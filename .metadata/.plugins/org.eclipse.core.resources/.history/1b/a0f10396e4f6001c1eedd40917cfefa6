@@ -1,0 +1,26 @@
+package oopS;
+
+public class Parent {
+	
+	float salary=58000.0f;
+}
+class Subclass {
+	int extra=1000;
+}
+
+class Child extends Parent{
+	
+	int bounce=2000;
+	public static void main(String[] args) {
+		Child c=new Child();
+		
+		System.out.println(c.salary);
+		System.out.println(c.bounce);
+		//System.out.println(s.extra);
+		
+		
+		
+		
+	}
+
+}

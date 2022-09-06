@@ -1,0 +1,13 @@
+package testPackage;
+
+public class DataTypes {
+
+	public static void main(String[] args) {
+	  
+		// Integer Types
+		byte myNum= 100;
+		System.out.println(myNum);
+		
+	}
+
+}

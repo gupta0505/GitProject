@@ -1,0 +1,53 @@
+package OOPs;
+
+abstract class Student {
+	
+	abstract void sound();
+	
+	public void eat()
+	{
+		System.out.println("aaaaaaaaaa");
+	}
+	
+}
+
+class College extends Student{
+	
+	public void sounds()
+	{
+		System.out.println("bbbbbbbbb");
+	}
+	
+class Main{
+	
+	public static void main(String[]args) {
+		
+	College c=new College();
+		c.sound();
+		c.eat();
+		
+		
+		
+
+	
+		
+		
+		
+		
+		
+		
+	}
+
+	@Override
+	void sound() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
+
+@Override
+void sound() {
+	// TODO Auto-generated method stub
+	
+}

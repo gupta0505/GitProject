@@ -1,0 +1,23 @@
+package BASIC;
+
+public class Practice {
+	
+	public static void main(String[] args) {
+		
+		int num=23, number, rev=0,temp;
+		//number=num;
+		while(num !=0)
+		{
+			temp=num%10;
+			rev=rev*10+temp;
+			num=num/10;
+		}
+		System.out.println(rev);
+		
+		
+	}
+}
+		 
+	
+
+

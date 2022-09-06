@@ -1,0 +1,30 @@
+package OOPs;
+
+
+
+public class Student {
+	
+	public void m1(int i)
+	{
+		System.out.println("int arg");
+	}
+	
+	public void m1(float f)
+	{
+		System.out.println("float arg");
+	}
+	
+	public static void main(String[] args) {
+	
+		Student s=new Student();
+		s.m1(10);
+		s.m1(10f);
+		s.m1(20f);
+		s.m1(10l);
+		
+		
+		
+		
+	}
+
+}

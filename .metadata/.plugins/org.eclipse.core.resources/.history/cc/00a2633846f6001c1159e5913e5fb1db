@@ -1,0 +1,29 @@
+package oopS;
+
+public class Deepak {
+	
+	static String Cname="Raisoni";
+	String Sname;
+	int id;
+	Deepak(String s,int i)
+	{
+		s=Sname;
+		i=id;
+	}
+	void details()
+	{
+		System.out.println("Sname"+" "+" "+id+" "+"Cname");
+	}
+
+	public static void main(String[] args) {
+		
+		Deepak d=new Deepak("Deepak",12);
+		Deepak d1=new Deepak("Julie",13);
+		
+		
+		d.details();
+		d1.details();
+		
+	}
+
+}

@@ -1,0 +1,27 @@
+package oopS;
+
+public class Overloading {
+	
+	
+	public static void main(String []args)
+	{
+		System.out.println("aaaaaaaaaaaaaaaaaaaaaa");
+	}
+	
+	public static void main(String  args)
+		{
+		System.out.println("bbbbbbbbbbbb");
+		}
+	//public static void main(String )
+	{
+		System.out.println("cccccccccccccc");
+	}
+	public static void main()
+	{
+		System.out.println("ddddddddddd");
+	}
+		
+		
+	
+}
+

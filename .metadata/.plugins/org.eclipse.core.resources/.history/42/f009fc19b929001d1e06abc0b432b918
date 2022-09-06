@@ -1,0 +1,41 @@
+package OOPs;
+
+public class Student {
+	
+	int id;
+	String name;
+	static float fee=200;
+	
+	void detail(int i,String n)
+	{
+		id=i;
+		name=n;
+	}
+}
+class College extends Student{
+	
+	void show(float f)
+	{
+		fee=f;
+	}
+}
+class main{
+	
+	public static void main(String[] args) {
+		
+		College s=new College();
+		College c=new College();
+		
+		c.detail(102, "deepak");
+		s.detail(101, "juliu");
+		
+		System.out.println(s.id+" "+s.name+" "+s.fee);
+		System.out.println(c.id+" "+c.name+" "+c.fee);
+		
+		
+		
+		
+		
+	}
+
+}

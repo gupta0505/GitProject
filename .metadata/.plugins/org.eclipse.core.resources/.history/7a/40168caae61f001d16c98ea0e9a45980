@@ -1,0 +1,34 @@
+package OOPs;
+
+
+
+public class Student {
+	
+	 void Julie()
+	 {
+		 System.out.println("She is ready for learning");
+	 }
+}
+
+class Subject extends Student{
+	
+	void Java()
+	{
+		System.out.println("java is a programimg Lang.");
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		Subject s=new Subject();
+		s.Julie();
+		s.Java();
+		
+		
+	
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+package OOPs;
+
+public class Const {
+	
+	int i;
+	String n;
+	
+	Const(){
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		Const c=new Const();
+		System.out.println(c.i);
+		System.out.println(c.n);
+	}
+
+}

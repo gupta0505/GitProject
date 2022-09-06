@@ -1,0 +1,23 @@
+package Practice;
+
+public class Basic {
+
+	public static void main(String[] args) {
+
+		
+		int num=23,temp=0;
+		for(int i=2;i<=num/2;i++)
+		{
+			if(num%i==0)
+			{
+				temp=1;
+				break;
+			}
+		}
+		if(temp==0)
+			System.out.println("yes");
+		else
+			System.out.println("no");
+	}
+
+}

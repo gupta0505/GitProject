@@ -1,0 +1,36 @@
+package oopS;
+
+public class Parent {
+	
+	//float salary;
+	void detail()
+	{
+		System.out.println("Salary-"+58.0000f);
+	}
+}
+class Subclass extends Parent {
+	//int extra=1000;
+	void copy()
+	{
+		System.out.println("extra-"+1000);
+	}
+}
+
+class Child extends Parent{
+	
+	//int bounce=2000;
+	void display() {
+		System.out.println("bounce-"+2000);
+	}
+	
+	public static void main(String[] args) {
+		Child c=new Child();
+		Subclass s=new Subclass();
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,56 @@
+package flowControl;
+
+public class Statement_Switch {
+
+	public static void main(String[] args) {
+		
+		/*int x=10;
+		switch(x)
+		{
+		System.out.println("Hello")
+		}*/
+		
+		/*int x=10;
+		int y=20;
+		switch(y)
+		{
+			case 10:
+				System.out.println("hii");
+				break;
+			case y: //case lable are constant
+				System.out.println("Hiii");
+				break;
+		} */
+		
+		int x=10;
+		switch(x=1)
+		{
+		case 10:
+			System.out.println(10);
+			break;
+		case 10+20+30:
+			System.out.println(60);
+			break;
+		}
+		
+		byte b=10;
+		switch(b+1)
+		{
+		case 10:
+			System.out.println(10);
+			break;
+		case 20:
+			System.out.println(20);
+			break;
+		case 100:
+			System.out.println(100);
+			break;
+		case 1000:
+			System.out.println(1000);
+			break;
+			
+		}
+
+	}
+
+}

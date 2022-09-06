@@ -1,0 +1,34 @@
+package OOPs;
+
+
+
+public class Student {
+	
+	public void run()
+	{
+		System.out.println("aaaaaaaaa");
+	}
+}
+	
+	class Subject extends Student{
+		
+		public void run()
+		{
+			System.out.println("bbbbbbbbbbbb");
+		}
+		
+	
+	public static void main(String[] args) {
+		
+		
+		Subject s=new Subject();
+		s.run();
+		
+	
+		
+		
+		
+		
+	}
+
+}

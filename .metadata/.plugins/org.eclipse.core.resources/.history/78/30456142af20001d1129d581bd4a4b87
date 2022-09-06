@@ -1,0 +1,31 @@
+package OOPs;
+
+
+
+public class Student {
+	
+	Student get()
+	{
+		return this;
+	}
+} 		
+class Subject extends Student{
+	
+	Subject get()
+	{
+		return this;
+	}
+	
+	void show()
+	{
+		System.out.println("aaaaaaaaaaaaaaaaaaaaaaa");
+	}
+	
+	public static void main(String[] args) {
+		
+	new Subject().get().show();
+		
+		
+		
+	}
+}

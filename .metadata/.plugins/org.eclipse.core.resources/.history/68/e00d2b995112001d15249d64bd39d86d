@@ -1,0 +1,18 @@
+package OOPs;
+
+public class CreateObject {
+	
+	int id;
+	String name;
+	String gender;
+
+	public static void main(String[] args) {
+		
+		CreateObject o=new CreateObject();
+		System.out.println(o.id);
+		System.out.println(o.name);
+		System.out.println(o.gender);
+		
+	}
+
+}

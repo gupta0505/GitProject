@@ -1,0 +1,31 @@
+package OOPs;
+
+
+
+public class Student {
+	
+		int id;
+		String name;
+		
+		void list(int i,String n)
+		{
+			id=i;
+			name=n;
+		}
+		
+		void show()
+		{
+			System.out.println(id+" "+name);
+		}
+	
+	public static void main(String[] args) {
+		
+		Student s=new Student();
+		
+		s.list(101, "julie");
+		s.show();
+		
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+package Collection;
+import java.util.*;
+
+public class LinkedList {
+
+	public static void main(String[] args) {
+		
+		LinkedList l=new Linkedlist();
+		l.add("Deepak");
+		l.add(1992);
+		l.add(null);
+		l.add("Deepak");
+		System.out.println(l);
+		
+		
+		
+
+	}
+
+}

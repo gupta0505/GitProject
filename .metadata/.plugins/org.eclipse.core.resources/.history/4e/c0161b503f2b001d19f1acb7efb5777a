@@ -1,0 +1,33 @@
+package BASIC;
+
+public class Practice {
+	
+	public static void main(String[] args) {
+		
+		int num=123321, number,rev=0,rem;
+		
+		
+		number=num;
+		while(num>0)
+		{
+			rem=num%10;
+			
+			rev=rev*10+rem;
+			
+			num=num/10;
+		}
+		
+		if(number==rev)
+			System.out.println("poli");
+		else
+			System.out.println("not");
+		
+		
+		}
+		
+	}
+
+		 
+	
+
+

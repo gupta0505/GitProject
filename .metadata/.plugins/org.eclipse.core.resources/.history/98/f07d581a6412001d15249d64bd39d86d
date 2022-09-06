@@ -1,0 +1,15 @@
+package OOPs;
+
+public class Const {
+	
+	int i;
+	String n;
+	
+	
+
+	public static void main(String[] args) {
+		
+		Const c=new Const();
+	}
+
+}

@@ -1,0 +1,19 @@
+package OOPs;
+
+public class Reffrence {
+	
+	int id;
+	String name;
+
+	public static void main(String[] args) {
+		
+		Reffrence R=new Reffrence();
+		R.id=100;
+		R.name="Nisha";
+		System.out.println(R.id+" "+R.name);
+		
+		
+		
+	}
+
+}

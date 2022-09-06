@@ -1,0 +1,33 @@
+package oopS;
+
+public class Animal {
+	
+	void pilla()
+	{
+		System.out.println("i m dog");
+	}
+}
+class Bird extends Animal{
+	
+	void fly()
+	{
+		System.out.println("i m bird");
+     }
+}
+class Flower extends Animal{
+	
+	void beautiful()
+	{
+		System.out.println("i m flower");
+	}
+	
+
+	public static void main(String[] args) {
+		Flower f=new Flower();
+		Bird b= new Bird();
+		f.beautiful();
+		b.fly();
+	
+	}
+
+}

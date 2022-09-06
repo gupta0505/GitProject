@@ -1,0 +1,35 @@
+package OOPs;
+
+
+
+public class Student {
+	
+	float salary=40000;
+}
+
+class Subject extends Student{
+	
+	int bonus=10000;
+	
+}
+
+class College extends Student{
+	
+	String name="Raisoni";
+	
+	public static void main(String[] args) {
+		
+		College c=new College();
+		Subject s=new Subject();
+		
+		System.out.println(s.salary);
+		System.out.println(s.bonus);
+		System.out.println(c.name);
+		
+	
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+package OOPs;
+
+
+
+public class Student {
+	
+
+ int no=1234;
+}
+	
+class College extends Student{
+	
+	String name="java";
+	
+	public static void main(String[] args) {
+		
+		College c=new College();
+		System.out.println(c.no);
+		System.out.println(c.name);
+		
+		
+		
+	}
+
+}

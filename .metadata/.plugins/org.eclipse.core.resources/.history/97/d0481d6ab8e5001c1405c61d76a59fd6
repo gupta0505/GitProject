@@ -1,0 +1,17 @@
+package oopS;
+
+public class TestA {
+	float salary=40000;
+}
+class TestB {
+	int Bouns=10000;
+
+	public static void main(String[] args) {
+		TestB t=new TestB();
+		System.out.println(t.salary);
+		System.out.println(t.Bouns);
+	
+
+	}
+
+}

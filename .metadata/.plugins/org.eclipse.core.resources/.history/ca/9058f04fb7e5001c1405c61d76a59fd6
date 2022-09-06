@@ -1,0 +1,17 @@
+package oopS;
+
+public class TestA {
+	float salary=40000;
+}
+class TestB extends TestA{
+	int Bouns=10000;
+
+	public static void main(String[] args) {
+		TestB t=new TestB();
+		System.out.println(40000);
+		System.out.println(10000);
+	
+
+	}
+
+}

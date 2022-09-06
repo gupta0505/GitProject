@@ -1,0 +1,17 @@
+package OOPs;
+
+public class Const {
+	
+	
+	int id;
+	String name;
+	
+	
+	public static void main(String[] args) {
+		
+		Const C=new Const();
+		//System.out.println
+		
+	}
+
+}

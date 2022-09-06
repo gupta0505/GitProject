@@ -1,0 +1,38 @@
+package OOPs;
+
+
+
+public class Student {
+	
+	int id;
+	String name;
+	
+	Student(int i,String n)
+	{
+		id=i;
+		name=n;
+	}
+	
+	Student(int i)
+	{
+		id=i;
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		
+	Student s=new Student(101, "Julie");
+	Student s1=new Student(102, "Deepak");
+	
+	Student s2=new Student(103);
+		
+	System.out.println(s.id+" "+s.name);
+	System.out.println(s1.id+" "+s1.name);
+	System.out.println(s2.id+" "+s2.name);
+		
+		
+		
+	}
+
+}

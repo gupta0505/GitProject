@@ -1,0 +1,22 @@
+package OOPs;
+
+public class Const {
+	
+	
+	int id;
+	String name;
+	Const()
+	{
+		this.id=id;
+		this.name=name;
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		Const C=new Const();
+		System.out.println(C.id+" "+C.name);
+		
+	}
+
+}

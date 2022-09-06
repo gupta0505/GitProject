@@ -1,0 +1,27 @@
+
+public class Basic {
+
+	public static void main(String[] args) {
+		int i=0,num=0,temp=0;
+		String primeno=" ";
+		for( num=i;num>=i;i--)
+		{
+			for(num=i;num>=i;num--)
+			{
+				if(i%num==0)
+				{
+					temp=temp+1;
+				}
+				
+			}
+			if(temp==2)
+			{
+				primeno=primeno+i+" ";
+			}
+		}
+		System.out.println(primeno);
+		
+		
+	}
+
+}

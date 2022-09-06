@@ -1,0 +1,20 @@
+package oopS;
+
+public class Overloading {
+	
+	public int add(int a,int b)
+	{
+		return a+b;
+	}
+	public int add(int a,int b,int c)
+	{
+		return a+b+c;
+	}
+	
+	public static void main(String []args) {
+		Overloading o=new Overloading();
+		o.add(12, 13);
+		o.add(11, 12, 13);
+	
+}
+}

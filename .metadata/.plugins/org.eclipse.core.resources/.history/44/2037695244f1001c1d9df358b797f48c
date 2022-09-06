@@ -1,0 +1,22 @@
+package Collection;
+import java.util.*;
+public class Arraylist {
+
+	public static void main(String[] args) {
+	
+		ArrayList <String>l=new ArrayList<>();
+		l.add("A");
+		l.add("10");
+		l.add("A");
+		l.add(null);
+		System.out.println(l);
+		
+		
+	}
+}
+
+	
+		
+
+
+

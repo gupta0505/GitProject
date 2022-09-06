@@ -1,0 +1,12 @@
+package testPackage;
+
+public class PrintVariables {
+
+	public static void main(String[] args) {
+		
+		String name="kumar";
+		System.out.println("Deepak"+ name);
+		
+	}
+
+}

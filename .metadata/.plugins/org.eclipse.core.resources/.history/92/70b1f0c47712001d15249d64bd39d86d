@@ -1,0 +1,20 @@
+package OOPs;
+
+public class Inheritance {
+	
+	int age=24;
+}
+	
+	class Test extends Inheritance{
+		
+	int age=25;
+
+	public static void main(String[] args) {
+		
+		Test t=new Test();
+		System.out.println(t.age);
+	
+
+	}
+
+}

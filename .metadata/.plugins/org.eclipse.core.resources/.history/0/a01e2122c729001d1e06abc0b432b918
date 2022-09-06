@@ -1,0 +1,22 @@
+package BASIC;
+
+public class Practice {
+	
+	public static void main(String[] args) {
+		
+		
+		int t=11;
+		for(int i=1;i<=10;i++)
+		{
+			t=t*i;
+		
+		System.out.println(i);
+		}
+		
+		
+	}
+}
+		 
+	
+
+

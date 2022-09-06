@@ -1,0 +1,21 @@
+package Practice;
+
+public class Basic {
+
+	public static void main(String[] args) {
+
+		int num=232, temp,rem,rev=0;
+		temp=num;
+		while(num!=0)
+		{
+			rem=num%10;
+			rev=rev*10+rem;
+			num=num/10;
+		}
+		if(temp==rev)
+			System.out.println("yes");
+		else
+			System.out.println("no");
+	}
+
+}

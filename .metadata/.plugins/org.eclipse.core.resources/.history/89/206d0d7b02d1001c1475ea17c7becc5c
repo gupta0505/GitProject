@@ -1,0 +1,26 @@
+package testPackage;
+
+public class FirstProgram {
+
+	public static void main(String[] args) {
+		
+		
+		System.out.println("Hello World");
+		System.out.println("it will be add new line for each method");
+		
+		
+		String name="Deepak";
+		System.out.println(name);
+		
+		
+		int myNum=15;
+		System.out.println(myNum);
+		
+		
+		int myNum=15;
+		myNum=20;
+		System.out.println(myNum);
+
+	}
+
+}

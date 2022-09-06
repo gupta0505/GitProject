@@ -1,0 +1,28 @@
+package oopS;
+
+public class Friends {
+	
+	String name;
+	int age;
+	int dob;
+	
+	void list(String n,int a,int d)
+	{
+		name=n;
+		age=a;
+		dob=d;
+	}
+	
+	void display()
+	{
+		System.out.println(name+" "+age+" "+dob);
+	}
+	
+
+	public static void main(String[] args) {
+		Friends f1=new Friends("Reshma",6, 31);
+		
+		
+	}
+
+}

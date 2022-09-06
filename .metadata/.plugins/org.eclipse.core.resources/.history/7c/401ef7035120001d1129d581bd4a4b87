@@ -1,0 +1,36 @@
+package OOPs;
+
+
+
+public class Student {
+	
+	void display(int a)
+	{
+		System.out.println(a);
+	}
+	
+	void display(int a,int b)
+	{
+		System.out.println(a+"and"+b);
+	}
+	
+	void display(float f)
+	{
+		System.out.println(f);
+	}
+	
+	public static void main(String[] args) {
+	
+		Student s=new Student();
+		
+		s.display(11);
+		s.display(11, 111);
+		s.display(11f);
+		
+		
+		
+		
+		
+	}
+
+}

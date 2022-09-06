@@ -1,0 +1,16 @@
+package oopS;
+
+public class Culculate {
+
+	int x;
+	static void  cube(int x)
+	{
+		(x*x*x);
+	}
+	
+	public static void main(String[] args) {
+		int result=Calculate.cube(5);
+		System.out.println(result);
+	}
+
+}

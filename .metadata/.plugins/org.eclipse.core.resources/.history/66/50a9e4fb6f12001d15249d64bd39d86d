@@ -1,0 +1,28 @@
+package OOPs;
+
+public class Static {
+	
+	int id;
+	String name;
+	String college;
+	
+	void list(int i,String n,String c)
+	{
+		id=i;
+		name=n;
+		college=c;
+	}
+	void display()
+	{
+		System.out.println(id+" "+name+" "+college);
+	}
+
+	public static void main(String[] args) {
+		
+		Static s=new Static();
+		s.list(101, "julie", "raisoni");
+		
+		
+	}
+
+}

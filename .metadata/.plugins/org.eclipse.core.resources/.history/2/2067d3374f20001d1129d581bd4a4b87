@@ -1,0 +1,33 @@
+package OOPs;
+
+
+
+public class Student {
+	
+
+ int no=1234;
+}
+
+class Subject extends Student{
+	
+	float ratio=20;
+}
+	
+class College extends Subject{
+	
+	String name="java";
+	
+	public static void main(String[] args) {
+		
+		College c=new College();
+		
+		System.out.println(c.no);
+		System.out.println(c.ratio);
+		System.out.println(c.name);
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package testPackage;
+
+public class PrintVariables {
+
+	public static void main(String[] args) {
+		
+		String name="kumar";
+		System.out.println("Deepak "+name );
+		
+		
+		String firstName="Julie";
+		String lastName="Gupta";
+		String fullName=firstName+lastName;
+		System.out.println(fullName);
+		
+		
+		
+		
+	}
+
+}
